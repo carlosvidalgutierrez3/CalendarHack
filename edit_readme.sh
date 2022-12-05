@@ -18,7 +18,6 @@ do
 
     sleep 3
 
-<<<<<<< HEAD
     random_hh=$((RANDOM % 13 + 10))
     random_mm=$((RANDOM % 49 + 10))
     random_ss=$((RANDOM % 49 + 10))
@@ -34,9 +33,4 @@ do
 
 done
 
-=======
-sleep 3
-
-GIT_COMMITTER_DATE="Mon Dec 5 20:46:10 2022 +0200" git commit --amend --no-edit --date "Mon Dec 5 20:46:10 2022 +0200"
->>>>>>> 873f2f1650f16e63f9e769ee4dfb6226ae76b457
 
