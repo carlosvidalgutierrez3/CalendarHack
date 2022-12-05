@@ -19,7 +19,7 @@ sleep 2
 
 git commit -m "added another h"
 
-sleep 2
+sleep 3
 
-git status
+GIT_COMMITTER_DATE="Mon Dec 5 20:46:10 2022 +0200" git commit --amend --no-edit --date "Mon Dec 5 20:46:10 2022 +0200"
 
