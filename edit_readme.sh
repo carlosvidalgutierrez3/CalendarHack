@@ -3,7 +3,7 @@
 character="h"
 filename="README.md"
 
-for i in {1..5}
+for i in {1..1}
 do
     echo -n "$character" >> "$filename"
     echo "Character '$character' added to $filename."
