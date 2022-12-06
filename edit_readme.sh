@@ -22,7 +22,7 @@ do
     random_mm=$((RANDOM % 49 + 10))
     random_ss=$((RANDOM % 49 + 10))
     time_clock="$random_hh:$random_mm:$random_ss"
-    date_full="Mon Dec 5 $time_clock 2022"
+    date_full="Tue Dec 6 $time_clock 2022"
 
     GIT_COMMITTER_DATE="$date_full +0200" git commit --amend --no-edit --date "$date_full +0200"
 
