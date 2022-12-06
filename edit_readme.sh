@@ -3,7 +3,7 @@
 character="h"
 filename="README.md"
 
-for i in {1..1}
+for i in {1..4}
 do
     echo -n "$character" >> "$filename"
     echo "Character '$character' added to $filename."
@@ -29,6 +29,8 @@ do
     sleep 3
 
     git push
+
+    sleep 5
 
 
 done
