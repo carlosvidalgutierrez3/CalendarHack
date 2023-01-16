@@ -9,5 +9,5 @@ values=(16 20)
 # Iterate over each value in the list
 for value in "${values[@]}"
 do
-    echo "Value: $value"
+    echo "Tue Jan $value 16:88:00 2023"
 done
