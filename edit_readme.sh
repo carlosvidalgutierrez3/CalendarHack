@@ -4,7 +4,7 @@ character="h"
 filename="README.md"
 
 # Days of the month
-days=(16 20)
+days=(30 31)
 
 for day in "${days[@]}"
 do
@@ -24,7 +24,7 @@ do
 
     git commit -m "added another h"
 
-    sleep 3
+    sleep 2
 
     random_hh=$((RANDOM % 13 + 10))
     random_mm=$((RANDOM % 49 + 10))
@@ -34,14 +34,14 @@ do
 
     GIT_COMMITTER_DATE="$date_full +0200" git commit --amend --no-edit --date "$date_full +0200"
 
-    sleep 3
+    sleep 2
 
     git push
 
-    sleep 5
-
 
 done
+    git push
 
+    sleep 5
 done
 
