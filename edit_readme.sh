@@ -4,7 +4,7 @@ character="h"
 filename="README.md"
 
 # Days of the month
-days=(1 2 12 13 14 15 16 19 21 22 27 30)
+days=(10 11 12 13 14 21 31)
 
 for day in "${days[@]}"
 do
@@ -30,7 +30,7 @@ do
     random_mm=$((RANDOM % 49 + 10))
     random_ss=$((RANDOM % 49 + 10))
     time_clock="$random_hh:$random_mm:$random_ss"
-    date_full="Tue Jun $day $time_clock 2023"
+    date_full="Tue Jul $day $time_clock 2023"
 
     GIT_COMMITTER_DATE="$date_full +0200" git commit --amend --no-edit --date "$date_full +0200"
 
