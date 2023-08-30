@@ -37,7 +37,7 @@ do
     date_full="Tue $month $day $time_clock $year" # the week day "Tue" has no effect
 
     # Change commit date
-    GIT_COMMITTER_DATE="$date_full +0200" git commit --amend --no-edit --date "$date_full $timezone"
+    GIT_COMMITTER_DATE="$date_full $timezone" git commit --amend --no-edit --date "$date_full $timezone"
 
 
 done
