@@ -29,7 +29,7 @@ do
 
     git commit -m "added another h"
 
-    # Generate random time of the day
+    # Generate random time of the day (number greater than 10 to obtain a two-digit value)
     random_hh=$((RANDOM % 13 + 10))
     random_mm=$((RANDOM % 49 + 10))
     random_ss=$((RANDOM % 49 + 10))
